@@ -8,7 +8,7 @@ We want to build a deep **c**onvolutional **n**eural **n**etwork (CNN) that can 
 A human face detector is built using OpenCV's [Cascade Classifier](https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html). A dog detector is built via transer learning, using the pre-trained [VGG16](https://neurohive.io/en/popular-networks/vgg16/) model. In order to classify dog breeds, a deep CNN is built from scratch - consisting of four convolutional and three fully connected layers. Batch normalization is applied after every convolutional layer to avoid covariance shift and accelerate the training process. Furthermore, max pooling layers are added after each convultional layer to decrease the image size and avoid overfitting. The latter is also supported by adding dropout layers. ReLU is consistently used as the activation function.
 
 Exemplary images and outputs:  
-* Dog:
+* Dog:  
 ![Example Image 1](/example2.png)
-* Human:
+* Human:  
 ![Example Image 2](/example1.png)
