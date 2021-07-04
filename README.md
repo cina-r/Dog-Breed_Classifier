@@ -1,6 +1,15 @@
 # Dog-Breed Classifier
 This is the second project of the Udacity Deep Learning Nanodegree Program.  
 
+## Setting up the virtual environment
+
+1. >pip install virtualenv
+2. >python -m venv env
+3. > cd .\env\Scripts
+4. >activate
+5. >pip install -r requirements.txt
+6. >python -m ipykernel install --name=\<choose-a-name-to-be-displayed-in-jupyter\>
+
 ## Problem statement
 We want to build a deep **c**onvolutional **n**eural **n**etwork (CNN) that can detect the breed when it's given an image of a dog. When it's provided with an image of a human face, the algorithm shall identify the resembling dog breed :P
 
